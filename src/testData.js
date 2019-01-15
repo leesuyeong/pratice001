@@ -1,0 +1,42 @@
+export const Activities = [{
+ user_profile_image:'https://avatars3.githubusercontent.com/u/43326114?s=64&v=4',
+ user_nickname:'leesuyeong',
+ user_name:'leesuyeong',
+ target_profile_image:'https://avatars3.githubusercontent.com/u/9152721?v=4',
+ target_nickname:'Violetdusk',
+ target_name:'Yoon-Jae-Jung',
+ target_comments : 'Developer(Obviously)',
+ target_repo_count:8,
+ target_followers:5,
+ followed_time:21,
+ followed:true,
+ },
+ {
+    user_profile_image:'https://avatars3.githubusercontent.com/u/43326114?s=64&v=4',
+    user_nickname:'leesuyeong',
+    user_name:'leesuyeong',
+    target_profile_image:'https://avatars3.githubusercontent.com/u/9152721?v=4',
+    target_nickname:'Violetdusk',
+    target_name:'Yoon-Jae-Jung',
+    target_comments : 'Developer(Obviously)',
+    target_repo_count:8,
+    target_followers:5,
+    followed_time:21,
+    followed:true,
+    
+   },
+   {
+    user_profile_image:'https://avatars3.githubusercontent.com/u/43326114?s=64&v=4',
+    user_nickname:'leesuyeong',
+    user_name:'leesuyeong',
+    target_profile_image:'https://avatars3.githubusercontent.com/u/9152721?v=4',
+    target_nickname:'Violetdusk',
+    target_name:'Yoon-Jae-Jung',
+    target_comments : 'Developer(Obviously)',
+    target_repo_count:8,
+    target_followers:5,
+    followed_time:21,
+    followed:true,
+    
+   }
+];

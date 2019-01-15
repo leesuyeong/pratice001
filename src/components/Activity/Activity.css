@@ -1,0 +1,58 @@
+.activity {
+  display: flex; }
+  .activity .activity-profile-image {
+    width: 40px;
+    height: 40px; }
+  .activity .activity-profile-detail {
+    flex: 1;
+    margin-left: 8px; }
+    .activity .activity-profile-detail .activity-header {
+      display: flex;
+      align-items: center; }
+      .activity .activity-profile-detail .activity-header .activity-title {
+        margin: 0; }
+        .activity .activity-profile-detail .activity-header .activity-title .activity-username {
+          font-size: 15px;
+          vertical-align: middle; }
+        .activity .activity-profile-detail .activity-header .activity-title span {
+          font-size: 15px;
+          font-weight: normal;
+          vertical-align: middle; }
+      .activity .activity-profile-detail .activity-header .activity-time {
+        font-size: 15px;
+        margin-left: 8px; }
+    .activity .activity-profile-detail .activity-contents-box {
+      border: 1px solid #ccc;
+      display: flex;
+      padding: 16px; }
+      .activity .activity-profile-detail .activity-contents-box .activity-target-profile-image {
+        width: 40px;
+        height: 40px; }
+      .activity .activity-profile-detail .activity-contents-box .activity-target-profile-detail {
+        flex: 1;
+        margin: 0 10px; }
+        .activity .activity-profile-detail .activity-contents-box .activity-target-profile-detail .activity-target-profile-detail-up .activity-target-username {
+          font-weight: bold;
+          font-size: 18px; }
+        .activity .activity-profile-detail .activity-contents-box .activity-target-profile-detail .activity-target-profile-detail-up .activity-target-nickname {
+          margin-left: 8px; }
+        .activity .activity-profile-detail .activity-contents-box .activity-target-profile-detail .activity-user-comments {
+          margin: 8px 0; }
+        .activity .activity-profile-detail .activity-contents-box .activity-target-profile-detail .activity-target-info {
+          font-size: 12px; }
+          .activity .activity-profile-detail .activity-contents-box .activity-target-profile-detail .activity-target-info .activity-target-followers {
+            margin-left: 8px; }
+      .activity .activity-profile-detail .activity-contents-box .activity-follow-button {
+        width: 73px;
+        height: 28px;
+        border: 1px soild #ccc;
+        background-color: #eee;
+        cursor: pointer;
+        outline: none; }
+        .activity .activity-profile-detail .activity-contents-box .activity-follow-button:hover {
+          background-color: #ddd; }
+
+.activity-hr {
+  margin: 20px 0;
+  border: none;
+  border-bottom: 1px solid #ccc; }

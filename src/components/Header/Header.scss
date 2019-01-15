@@ -1,0 +1,38 @@
+header {
+    background-color: #24292e;
+    height: 55px;
+    padding: 5px;
+    display: flex;
+
+    .header-left{
+        display: flex;
+        align-items: center;
+        flex: 1;
+        .header-logo{
+            width: 50px;
+            height: 50px;
+        }
+        .header-searchInfo{
+            width:273px;
+            height:30px;
+            background-color: hsla(0, 0%, 100%, .125);
+            border: none;
+            margin: 0 10px;
+        }
+        .header-nav{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            .header-nav-list{
+                color: white;
+                font-weight: bold;
+                margin: 0 10px;
+            }
+        }
+    }
+    .header-right{
+        display: flex;
+        align-items: center;
+    }
+}

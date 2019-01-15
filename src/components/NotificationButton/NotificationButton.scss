@@ -1,0 +1,21 @@
+.notification-button {
+    position: relative;
+    .notification-image{
+        width: 30px;
+        height: 30px;
+    }
+    
+    &.active{
+        &:after {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border-radius:10px;
+            position: absolute;
+            right: 0;
+            top:0;
+        } 
+    }
+}

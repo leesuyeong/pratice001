@@ -1,0 +1,14 @@
+.activity-Browser .activity-Browser-header {
+  display: flex;
+  margin-top: 40px; }
+  .activity-Browser .activity-Browser-header .activity-Browser-title {
+    margin: 0;
+    font-size: 17px;
+    flex: 1; }
+  .activity-Browser .activity-Browser-header .discover-repositories {
+    font-size: 17px; }
+
+.activity-Browser hr {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px; }
